@@ -1,7 +1,5 @@
 # Hi, I'm Daniel Sepulveda Estay 👋
 
-System dynamics and network optimization for supply chains that fail as systems, not as incidents. PhD, Technical University of Denmark · MSc, MIT · Council seat, System Dynamics Society.
-
 [LinkedIn](https://www.linkedin.com/in/danielsepulvedaestay)
 
 ## 🚀 Live deployments
