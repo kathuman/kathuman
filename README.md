@@ -33,3 +33,7 @@ Repo: [kathuman/claude-projects](https://github.com/kathuman/claude-projects)
 - **[Pharma Supply Chain Simulator](https://kathuman.github.io/pharma-sim/)** — executive-facing simulator for pharma supply chain strategy decisions · [repo](https://github.com/kathuman/pharma-sim)
 - **[Multiplication Circle](https://kathuman.github.io/multiplication-circle/)** — modular multiplication tables visualized as circle patterns (the cardioid/rose curves from times-table visualizers) · [repo](https://github.com/kathuman/multiplication-circle)
 - **[Flexibility in Supply Chain](https://kathuman.github.io/Book-Flexibility-in-SC/)** — companion repo for the book *Flexibility in Supply Chain*, original home of the Global Disruption Atlas prototype (now folded into Estay Dynamics above) · [repo](https://github.com/kathuman/Book-Flexibility-in-SC)
+
+## 🦾 Mechanical engineering
+
+- **[Linkage — Robotic Arm Simulator](https://kathuman.github.io/claude-projects/robotic-arm-sim/)** — real-time 3D 5-axis cobot: forward-kinematics joint sliders, live end-effector telemetry, optional tip-trace path drawing, and a cannon.js rigid-body physics world where anything the gripper releases actually falls, bounces and settles instead of snapping into place · part of [Projects Built with Claude](https://github.com/kathuman/claude-projects)
