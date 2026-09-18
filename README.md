@@ -34,6 +34,7 @@ Repo: [kathuman/claude-projects](https://github.com/kathuman/claude-projects)
 - **[Multiplication Circle](https://kathuman.github.io/multiplication-circle/)** — modular multiplication tables visualized as circle patterns (the cardioid/rose curves from times-table visualizers) · [repo](https://github.com/kathuman/multiplication-circle)
 - **[Flexibility in Supply Chain](https://kathuman.github.io/Book-Flexibility-in-SC/)** — companion repo for the book *Flexibility in Supply Chain*, original home of the Global Disruption Atlas prototype (now folded into Estay Dynamics above) · [repo](https://github.com/kathuman/Book-Flexibility-in-SC)
 
-## 🦾 Mechanical engineering
+## 🦾 Engineering simulations
 
 - **[Linkage — Robotic Arm Simulator](https://kathuman.github.io/claude-projects/robotic-arm-sim/)** — real-time 3D 5-axis cobot: forward-kinematics joint sliders, live end-effector telemetry, optional tip-trace path drawing, and a cannon.js rigid-body physics world where anything the gripper releases actually falls, bounces and settles instead of snapping into place · part of [Projects Built with Claude](https://github.com/kathuman/claude-projects)
+- **[Tube Flow — CFD Sphere-in-a-Tube Sim](https://kathuman.github.io/claude-projects/tube-flow-sim/)** — real-time 3D lattice-Boltzmann Navier–Stokes solver: drag inlet speed and viscosity through Stokes creeping flow, a steady separated wake, and unsteady vortex shedding, with a live Reynolds number, thousands of advected tracer particles, and an optional speed/vorticity cross-section slice · part of [Projects Built with Claude](https://github.com/kathuman/claude-projects)
