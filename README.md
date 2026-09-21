@@ -24,6 +24,7 @@ A searchable directory of small, single-file, no-dependency builds:
 | [Scientific Calculator](https://kathuman.github.io/claude-projects/scientific-calculator/) | Recursive-descent expression parser, DEG/RAD/GRAD modes, and TVM/NPV/IRR finance functions |
 | [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) | Interactive explainer: commit-now vs. wait vs. staged network expansion under demand uncertainty |
 | [Network Design Visuals](https://kathuman.github.io/claude-projects/supply-chain-viz/) | A library of 17 supply-chain visualizations, from demand bars to disruption-impact matrices |
+| [Face Morph](https://kathuman.github.io/claude-projects/face-morph/) | Live 68-point face-landmark detection (on-device, nothing uploaded) that morphs between two captured faces with a triangulated warp and cross-dissolve |
 | Snake | Classic Tkinter Snake — [Claude Artifact](https://claude.ai/code/artifact/3a0966c2-17c0-4024-ab90-540b14857d46) |
 
 Repo: [kathuman/claude-projects](https://github.com/kathuman/claude-projects)
