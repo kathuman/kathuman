@@ -2,6 +2,15 @@
 
 [LinkedIn](https://www.linkedin.com/in/danielsepulvedaestay)
 
+## 🧭 Areas of expertise
+
+- **[System Dynamics](https://kathuman.github.io/estay-dynamics/expertise/system-dynamics.html)** — causal loop diagrams, stock-flow simulation, and group model building
+- **[Systemic Risk Analysis](https://kathuman.github.io/estay-dynamics/expertise/systemic-risk-analysis.html)** — how disruptions propagate through network structure, not just how likely they are
+- **[Real Options](https://kathuman.github.io/estay-dynamics/expertise/real-options.html)** — pricing the value of deferring, staging, or abandoning a network decision under uncertainty
+- **[Network Design Optimization](https://kathuman.github.io/estay-dynamics/expertise/network-design-optimization.html)** — MILP/stochastic programming and Monte Carlo stress-testing for facility, sourcing, and capacity decisions
+
+Full breakdown → [Areas of Expertise](https://kathuman.github.io/estay-dynamics/expertise/index.html)
+
 ## 🚀 Live deployments
 
 ### [Estay Dynamics](https://kathuman.github.io/estay-dynamics/) — consulting practice site
