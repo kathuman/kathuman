@@ -12,14 +12,18 @@ I help organisations understand how disruptions travel through their supply netw
 that absorb them — and I build the models as interactive tools, so decisions can be explored rather than
 read off a slide.
 
-## What I work on
+## Areas of expertise
 
-- **[System dynamics](https://kathuman.github.io/estay-dynamics/expertise/system-dynamics.html)** — causal loop diagrams, stock-and-flow simulation, group model building
-- **[Systemic risk analysis](https://kathuman.github.io/estay-dynamics/expertise/systemic-risk-analysis.html)** — how disruptions propagate through network structure, not just how likely they are
-- **[Real options](https://kathuman.github.io/estay-dynamics/expertise/real-options.html)** — the value of deferring, staging or abandoning a network decision under uncertainty
-- **[Network design optimisation](https://kathuman.github.io/estay-dynamics/expertise/network-design-optimization.html)** — MILP and stochastic programming, Monte Carlo stress tests for facility, sourcing and capacity decisions
+- **[System dynamics](https://kathuman.github.io/estay-dynamics/expertise/system-dynamics.html)** — causal loop diagrams, stock-and-flow simulation, group model building and executive workshops that diagnose why a system keeps producing the same failures
+- **[Systemic risk and resilience](https://kathuman.github.io/estay-dynamics/expertise/systemic-risk-analysis.html)** — how disruptions propagate through network structure, and how much flexibility (second sources, buffers, alternative routes) it pays to hold
+- **[Network design optimisation](https://kathuman.github.io/estay-dynamics/expertise/network-design-optimization.html)** — MILP and stochastic programming for facility, sourcing and capacity decisions, stress-tested by Monte Carlo
+- **[Real options](https://kathuman.github.io/estay-dynamics/expertise/real-options.html)** — the value of deferring, staging or abandoning a network investment under uncertainty
+- **Simulation and digital twins** — discrete-event, agent-based and Monte Carlo models of warehouses, production chains and supply networks ([Warehouse Model](https://kathuman.github.io/claude-projects/warehouse-model/web/), [Network Stress Test](https://kathuman.github.io/claude-projects/network-stress-test/web/))
+- **Maritime and cyber-physical risk** — dynamic models of the attack–defence loop in ship systems ([DDRA](https://kathuman.github.io/estay-dynamics/ddra/))
 
-## Flagship tools
+Sector experience: mining, beverage distribution, healthcare and pharmaceutical manufacturing.
+
+## Featured work
 
 <table>
 <tr>
@@ -67,9 +71,9 @@ export and a ROS bridge.
 </tr>
 </table>
 
-## Built to be trusted
+## Verification and validation
 
-The models are tested, not just drawn: the CFD solver against Hagen–Poiseuille flow, the Haberman–Sayre
+Each model is checked against an independent reference before it is used: the CFD solver against Hagen–Poiseuille flow, the Haberman–Sayre
 wall-corrected Stokes drag and Johnson &amp; Patel's sphere wakes; the robot kinematics on 1,600+ checks;
 the warehouse layout against an independent FreeCAD model. The suites run in CI:
 
@@ -86,30 +90,19 @@ the warehouse layout against an independent FreeCAD model. The suites run in CI:
 - **[Pharma supply chain ABM](https://github.com/kathuman/pharma-supply-chain-abm)** — an agent-based model of material through a CMO chain (Mesa, Streamlit)
 - **[System dynamics models](https://github.com/kathuman/Vensim-Experiments)** — Vensim models in public health, epidemiology and cyber-resilience
 
-## All projects
+## Selected projects
 
 <!-- PROJECTS:START -->
-17 projects, newest first — generated from the [projects site](https://kathuman.github.io/claude-projects/).
+Further tools and experiments, newest first. The full list of 17 is on the [projects site](https://kathuman.github.io/claude-projects/).
 
 | Project | What it is | |
 |---|---|---|
 | [Plumb](https://kathuman.github.io/claude-projects/balancebot-sim/) | A parametrized 3D simulator for a two-wheeled, single-axis balancing robot. | [code](https://github.com/kathuman/claude-projects/tree/main/balancebot-sim) |
-| [Xiangqi](https://kathuman.github.io/claude-projects/xiangqi/) | Xiangqi (Chinese chess) against a friend on one screen, or against the open-source Fairy-Stockfish engine — one of the strongest Xiangqi engines, compiled… | [code](https://github.com/kathuman/claude-projects/tree/main/xiangqi) |
-| [Network Stress Test](https://kathuman.github.io/claude-projects/network-stress-test/web/) | A supply-network resilience sandbox: build or generate a production/warehouse/consumer network (hundreds of editable nodes) connected by air/sea/road lanes… | [code](https://github.com/kathuman/claude-projects/tree/main/network-stress-test) |
 | [Face Morph](https://kathuman.github.io/claude-projects/face-morph/) | Live face-landmark detection and triangulated face morphing, entirely on-device. | [code](https://github.com/kathuman/claude-projects/tree/main/face-morph) |
-| [Warehouse Model](https://kathuman.github.io/claude-projects/warehouse-model/web/) | An interactive engineering reasoning environment for warehouse design — not a CAD viewer. | [code](https://github.com/kathuman/claude-projects/tree/main/warehouse-model) |
-| [Tube Flow](https://kathuman.github.io/claude-projects/tube-flow-sim/) | A validated 3D lattice-Boltzmann flow lab on the GPU: spheres, STL shapes and NACA wing sections in a tube, in real fluids and units. | [code](https://github.com/kathuman/claude-projects/tree/main/tube-flow-sim) |
-| [Cobot Lab](https://kathuman.github.io/claude-projects/cobot-lab/) | A browser simulator of the Universal Robots e-Series cobots — UR3e, UR5e, UR10e and UR16e, each from its published Denavit–Hartenberg and dynamics… | [code](https://github.com/kathuman/claude-projects/tree/main/cobot-lab) |
 | [Network Design Visuals](https://kathuman.github.io/claude-projects/supply-chain-viz/) | A browsable library of 17 supply-chain network-design visualizations, ordered simple → advanced: demand bars, cost-to-serve stacks, O–D flow maps, an… | [code](https://github.com/kathuman/claude-projects/tree/main/supply-chain-viz) |
 | [Scientific Calculator](https://kathuman.github.io/claude-projects/scientific-calculator/) | A keyboard-friendly scientific calculator with a real recursive-descent expression parser (no eval), DEG/RAD/GRAD modes, memory, inverse trig via a 2nd key,… | [code](https://github.com/kathuman/claude-projects/tree/main/scientific-calculator) |
-| [Chess](https://kathuman.github.io/claude-projects/chess/) | Play chess against a friend on one screen, or against the open-source Stockfish 18 engine (WebAssembly, runs in your browser) at eight strength levels from… | [code](https://github.com/kathuman/claude-projects/tree/main/chess) |
 | Problem Log (Android) | A native Android app that turns a spoken or typed problem description into a structured record — title, summary, category, short-term mitigation, long-term… | [code](https://github.com/kathuman/claude-projects/tree/8b96c8b66ac28f037989d78b0b1d251bbae5e5c3/problemlog-android) |
-| Othello (Android) | A native Android port of the Othello sub-app below — the same rules engine and negamax AI (four strengths, full endgame solve), rebuilt from JavaScript to… | [code](https://github.com/kathuman/claude-projects/tree/main/othello-android) |
-| [Go](https://kathuman.github.io/claude-projects/go/) | Play Go (Baduk / Weiqi) against the computer or a friend on one screen. | [code](https://github.com/kathuman/claude-projects/tree/main/go) |
-| [Othello](https://kathuman.github.io/claude-projects/othello/) | Play Othello (Reversi) against the computer or a friend on one screen. | [code](https://github.com/kathuman/claude-projects/tree/main/othello) |
 | [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) | An interactive explainer for real options applied to supply chain network design. | [code](https://github.com/kathuman/claude-projects/tree/main/real-options) |
-| [Cube Studio](https://kathuman.github.io/claude-projects/rubiks-cube/) | View a Rubik's Cube in 3D (drag to orbit) and as a 2D unfolded schematic, scramble it, then watch a near-optimal Kociemba two-phase solution play out move… | [code](https://github.com/kathuman/claude-projects/tree/main/rubiks-cube) |
-| [Snake](https://claude.ai/code/artifact/3a0966c2-17c0-4024-ab90-540b14857d46) | A classic grid-based Snake game built with Python's Tkinter — pause/resume, increasing speed, and a game-over overlay. |  |
 <!-- PROJECTS:END -->
 
 ---

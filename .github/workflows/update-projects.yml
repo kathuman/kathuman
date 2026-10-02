@@ -1,6 +1,6 @@
 name: Update projects table
 
-# Keeps the "All projects" table in README.md in step with the projects site's projects.json.
+# Keeps the "Selected projects" table in README.md in step with the projects site's projects.json.
 on:
   schedule:
     - cron: "17 5 * * *"
