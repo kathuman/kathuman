@@ -18,8 +18,9 @@ read off a slide.
 - **[Systemic risk and resilience](https://kathuman.github.io/estay-dynamics/expertise/systemic-risk-analysis.html)** — how disruptions propagate through network structure, and how much flexibility (second sources, buffers, alternative routes) it pays to hold
 - **[Network design optimisation](https://kathuman.github.io/estay-dynamics/expertise/network-design-optimization.html)** — MILP and stochastic programming for facility, sourcing and capacity decisions, stress-tested by Monte Carlo
 - **[Real options](https://kathuman.github.io/estay-dynamics/expertise/real-options.html)** — the value of deferring, staging or abandoning a network investment under uncertainty
-- **Simulation and digital twins** — discrete-event, agent-based and Monte Carlo models of warehouses, production chains and supply networks ([Warehouse Model](https://kathuman.github.io/claude-projects/warehouse-model/web/), [Network Stress Test](https://kathuman.github.io/claude-projects/network-stress-test/web/))
-- **Maritime and cyber-physical risk** — dynamic models of the attack–defence loop in ship systems ([DDRA](https://kathuman.github.io/estay-dynamics/ddra/))
+- **[Simulation and digital twins](https://kathuman.github.io/estay-dynamics/expertise/simulation-digital-twins.html)** — discrete-event, agent-based and Monte Carlo models that test warehouse, production and network changes before capital is committed
+- **[Maritime and cyber-physical risk](https://kathuman.github.io/estay-dynamics/expertise/maritime-cyber-physical-risk.html)** — how fast detection and response must be to keep a cyber incident in ship or port systems from becoming a physical loss
+- **[Engineering simulation](https://kathuman.github.io/estay-dynamics/expertise/engineering-simulation.html)** — validated physics models for concept and feasibility decisions: fluid flow and forces (CFD), robotic cell reach and cycle times, mechanism dynamics, parametric CAD
 
 Sector experience: mining, beverage distribution, healthcare and pharmaceutical manufacturing.
 
