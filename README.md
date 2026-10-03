@@ -14,8 +14,7 @@ read off a slide.
 
 ## Areas of expertise
 
-- **[System dynamics](https://kathuman.github.io/estay-dynamics/expertise/system-dynamics.html)** — causal loop diagrams, stock-and-flow simulation, group model building and executive workshops that diagnose why a system keeps producing the same failures
-- **[Systemic risk and resilience](https://kathuman.github.io/estay-dynamics/expertise/systemic-risk-analysis.html)** — how disruptions propagate through network structure, and how much flexibility (second sources, buffers, alternative routes) it pays to hold
+- **[Systems analysis](https://kathuman.github.io/estay-dynamics/expertise/systems-analysis.html)** — system dynamics and systemic risk analysis: why problems recur after every fix, how far disruptions travel through a network, and how much flexibility (buffers, second sources, alternative routes) it pays to hold; causal loop diagrams, stock-and-flow simulation, group model building and executive workshops
 - **[Network design optimisation](https://kathuman.github.io/estay-dynamics/expertise/network-design-optimization.html)** — MILP and stochastic programming for facility, sourcing and capacity decisions, stress-tested by Monte Carlo
 - **[Real options](https://kathuman.github.io/estay-dynamics/expertise/real-options.html)** — the value of deferring, staging or abandoning a network investment under uncertainty
 - **[Simulation and digital twins](https://kathuman.github.io/estay-dynamics/expertise/simulation-digital-twins.html)** — discrete-event, agent-based and Monte Carlo models that test warehouse, production and network changes before capital is committed
