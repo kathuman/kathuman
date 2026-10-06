@@ -1,12 +1,13 @@
-# Daniel Sepulveda Estay, PhD
-
-**Supply chain resilience and network design — system dynamics, optimisation and simulation, built into tools people can use.**
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
+  <img src="assets/banner-dark.png" width="100%" alt="Daniel Sepulveda Estay, PhD — supply chain resilience and network design: system dynamics, optimisation and simulation, built into tools people can use.">
+</picture>
 
 PhD, Technical University of Denmark (DTU) · MSc, MIT · Council member, System Dynamics Society · Copenhagen
 
-[![Estay Dynamics](https://img.shields.io/badge/Estay_Dynamics-consulting-0b6e99)](https://kathuman.github.io/estay-dynamics/)
-[![Projects](https://img.shields.io/badge/Projects-live_tools-c15f3c)](https://kathuman.github.io/claude-projects/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0a66c2)](https://www.linkedin.com/in/danielsepulvedaestay)
+[![Estay Dynamics](https://img.shields.io/badge/Estay_Dynamics-consulting-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/estay-dynamics/)
+[![Projects](https://img.shields.io/badge/AI_Projects-live_tools-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/claude-projects/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-7dd3fc?style=for-the-badge&labelColor=0a2f52&logo=linkedin&logoColor=bfe4ff)](https://www.linkedin.com/in/danielsepulvedaestay)
 
 I help organisations understand how disruptions travel through their supply networks and design networks
 that absorb them — and I build the models as interactive tools, so decisions can be explored rather than
@@ -77,9 +78,10 @@ Each model is checked against an independent reference before it is used: the CF
 wall-corrected Stokes drag and Johnson &amp; Patel's sphere wakes; the robot kinematics on 1,600+ checks;
 the warehouse layout against an independent FreeCAD model. The suites run in CI:
 
-[![Tube Flow tests](https://github.com/kathuman/claude-projects/actions/workflows/tube-flow-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/tube-flow-ci.yml)
-[![Cobot Lab tests](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml)
-[![Warehouse Model tests](https://github.com/kathuman/claude-projects/actions/workflows/warehouse-model-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/warehouse-model-ci.yml)
+[![Tube Flow tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/tube-flow-ci.yml?branch=main&label=Tube%20Flow%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/tube-flow-ci.yml)
+[![Cobot Lab tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/cobot-lab-ci.yml?branch=main&label=Cobot%20Lab%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml)
+[![Warehouse Model tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/warehouse-model-ci.yml?branch=main&label=Warehouse%20Model%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/warehouse-model-ci.yml)
+[![Chess tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/chess-ci.yml?branch=main&label=Chess%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/chess-ci.yml)
 
 ## Research and consulting
 
