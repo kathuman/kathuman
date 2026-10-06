@@ -76,7 +76,7 @@ export and a ROS bridge.
 
 Each model is checked against an independent reference before it is used: the CFD solver against Hagen–Poiseuille flow, the Haberman–Sayre
 wall-corrected Stokes drag and Johnson &amp; Patel's sphere wakes; the robot kinematics on 1,600+ checks;
-the warehouse layout against an independent FreeCAD model. The suites run in CI:
+the warehouse layout against an independent FreeCAD model; the chess rules by perft against published move counts, with every course exercise checked by Stockfish and the endgame tablebase. The suites run in CI:
 
 [![Tube Flow tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/tube-flow-ci.yml?branch=main&label=Tube%20Flow%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/tube-flow-ci.yml)
 [![Cobot Lab tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/cobot-lab-ci.yml?branch=main&label=Cobot%20Lab%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml)
