@@ -32,12 +32,6 @@
   .tag { margin-top: 12px; font-family: "Barlow", sans-serif; font-size: 21px; font-weight: 500; line-height: 1.35; color: var(--ink2); }
   .chips { margin-top: 20px; display: flex; gap: 8px; flex-wrap: nowrap; }
   .chips b { font-family: "Rajdhani", sans-serif; font-weight: 600; font-size: 13.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--ink); border: 1px solid var(--line); border-radius: 7px; padding: 4px 9px; background: color-mix(in srgb, var(--bg2) 70%, transparent); }
-  svg.net { position: absolute; right: 36px; top: 34px; width: 380px; height: 232px; }
-  .net .edge { stroke: var(--accent); stroke-width: 1.6; opacity: .55; fill: none; }
-  .net .edge.hot { stroke-dasharray: 6 5; opacity: .9; }
-  .net .n { fill: var(--node); stroke: var(--accent); stroke-width: 2; }
-  .net .n.hub { fill: var(--accent); }
-  .net text { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: var(--faint); letter-spacing: .06em; }
 </style>
 </head>
 <body>
@@ -49,21 +43,6 @@
     <div class="tag">Supply chain resilience and network design: system dynamics, optimisation and simulation, built into tools people can use.</div>
     <div class="chips"><b>Systems analysis</b><b>Network design</b><b>Real options</b><b>Digital twins</b><b>Engineering simulation</b></div>
   </div>
-  <!-- a small supply network: suppliers → hubs → markets, one disrupted lane -->
-  <svg class="net" viewBox="0 0 440 240" aria-hidden="true">
-    <path class="edge" d="M40 50 C120 50 120 110 200 110"/>
-    <path class="edge" d="M40 120 L200 110"/>
-    <path class="edge hot" d="M40 190 C120 190 120 170 200 170"/>
-    <path class="edge" d="M40 120 C120 120 120 170 200 170"/>
-    <path class="edge" d="M200 110 C290 110 300 40 390 40"/>
-    <path class="edge" d="M200 110 L390 120"/>
-    <path class="edge" d="M200 170 C290 170 300 120 390 120"/>
-    <path class="edge" d="M200 170 C290 170 300 200 390 200"/>
-    <circle class="n" cx="40" cy="50" r="8"/><circle class="n" cx="40" cy="120" r="8"/><circle class="n" cx="40" cy="190" r="8"/>
-    <circle class="n hub" cx="200" cy="110" r="12"/><circle class="n hub" cx="200" cy="170" r="12"/>
-    <circle class="n" cx="390" cy="40" r="8"/><circle class="n" cx="390" cy="120" r="8"/><circle class="n" cx="390" cy="200" r="8"/>
-    <text x="14" y="232">SUPPLY</text><text x="176" y="232">HUBS</text><text x="356" y="232">MARKETS</text>
-  </svg>
 </div>
 <script>if (location.search.indexOf("light") >= 0) document.documentElement.className = "light";</script>
 </body>
