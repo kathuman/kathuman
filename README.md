@@ -99,7 +99,7 @@ Further tools and experiments, newest first. The full list of 17 is on the [proj
 
 | Project | What it is | |
 |---|---|---|
-| [Plumb](https://kathuman.github.io/claude-projects/balancebot-sim/) | A parametrized 3D simulator for a two-wheeled, single-axis balancing robot. | [code](https://github.com/kathuman/claude-projects/tree/main/balancebot-sim) |
+| [Plumb](https://kathuman.github.io/claude-projects/balancebot-sim/) | A 3D simulator for a two-wheeled balancing robot (v1.2). | [code](https://github.com/kathuman/claude-projects/tree/main/balancebot-sim) |
 | [Face Morph](https://kathuman.github.io/claude-projects/face-morph/) | Live face-landmark detection and triangulated face morphing, entirely on-device. | [code](https://github.com/kathuman/claude-projects/tree/main/face-morph) |
 | [Network Design Visuals](https://kathuman.github.io/claude-projects/supply-chain-viz/) | A browsable library of 17 supply-chain network-design visualizations, ordered simple → advanced: demand bars, cost-to-serve stacks, O–D flow maps, an… | [code](https://github.com/kathuman/claude-projects/tree/main/supply-chain-viz) |
 | [Scientific Calculator](https://kathuman.github.io/claude-projects/scientific-calculator/) | A keyboard-friendly scientific calculator with a real recursive-descent expression parser (no eval), DEG/RAD/GRAD modes, memory, inverse trig via a 2nd key,… | [code](https://github.com/kathuman/claude-projects/tree/main/scientific-calculator) |
