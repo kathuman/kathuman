@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
-  <img src="assets/banner-dark.png" width="100%" alt="Daniel Sepulveda Estay, PhD — supply chain resilience and network design: system dynamics, optimisation and simulation, built into tools people can use.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png?v=3">
+  <img src="assets/banner-dark.png?v=3" width="100%" alt="Daniel Sepulveda Estay, PhD — supply chain resilience and network design: system dynamics, optimisation and simulation, built into tools people can use.">
 </picture>
 
 PhD, Technical University of Denmark (DTU) · MSc, MIT · Council member, System Dynamics Society · Copenhagen
