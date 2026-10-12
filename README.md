@@ -95,10 +95,11 @@ the warehouse layout against an independent FreeCAD model; the chess rules by pe
 ## Selected projects
 
 <!-- PROJECTS:START -->
-Further tools and experiments, newest first. The full list of 19 is on the [projects site](https://kathuman.github.io/claude-projects/).
+Further tools and experiments, newest first. The full list of 20 is on the [projects site](https://kathuman.github.io/claude-projects/).
 
 | Project | What it is | |
 |---|---|---|
+| [Lag Lab](https://kathuman.github.io/claude-projects/lag-lab/) | After a demand step, production overshoots and planning calls it forecast error. | [code](https://github.com/kathuman/claude-projects/tree/main/lag-lab) |
 | [Sensor Deck](https://kathuman.github.io/claude-projects/phone-sensors/) | Every sensor a phone's browser can read, live in one page, with nothing to install. | [code](https://github.com/kathuman/claude-projects/tree/main/phone-sensors) |
 | [Plumb](https://kathuman.github.io/claude-projects/balancebot-sim/) | A 3D simulator for a two-wheeled balancing robot (v1.3). | [code](https://github.com/kathuman/claude-projects/tree/main/balancebot-sim) |
 | [Face Morph](https://kathuman.github.io/claude-projects/face-morph/) | Live face-landmark detection and triangulated face morphing, entirely on-device. | [code](https://github.com/kathuman/claude-projects/tree/main/face-morph) |
