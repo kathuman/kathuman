@@ -110,6 +110,7 @@ Further tools and experiments, newest first. The full list of 21 is on the [proj
 
 | Project | What it is | |
 |---|---|---|
+| [Clockspeed Balancing](https://kathuman.github.io/claude-projects/clockspeed/) | A management flight simulator for the conflict between commercial strategy (which moves in months), the product supply chain (about a year) and the network… | [code](https://github.com/kathuman/claude-projects/tree/main/clockspeed) |
 | [Sensor Deck](https://kathuman.github.io/claude-projects/phone-sensors/) | Every sensor a phone's browser can read, live in one page, with nothing to install. | [code](https://github.com/kathuman/claude-projects/tree/main/phone-sensors) |
 | [Face Morph](https://kathuman.github.io/claude-projects/face-morph/) | Live face-landmark detection and triangulated face morphing, entirely on-device. | [code](https://github.com/kathuman/claude-projects/tree/main/face-morph) |
 <!-- PROJECTS:END -->
