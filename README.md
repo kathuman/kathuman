@@ -104,7 +104,7 @@ Further tools and experiments, newest first. The full list of 21 is on the [proj
 | [Network Design Visuals](https://kathuman.github.io/claude-projects/supply-chain-viz/) | A browsable library of 17 supply-chain network-design visualizations, ordered simple → advanced: demand bars, cost-to-serve stacks, O–D flow maps, an… | [code](https://github.com/kathuman/claude-projects/tree/main/supply-chain-viz) |
 | [Scientific Calculator](https://kathuman.github.io/claude-projects/scientific-calculator/) | A keyboard-friendly scientific calculator with a real recursive-descent expression parser (no eval), DEG/RAD/GRAD modes, memory, inverse trig via a 2nd key,… | [code](https://github.com/kathuman/claude-projects/tree/main/scientific-calculator) |
 | Problem Log (Android) | A native Android app that turns a spoken or typed problem description into a structured record — title, summary, category, short-term mitigation, long-term… | [code](https://github.com/kathuman/claude-projects/tree/8b96c8b66ac28f037989d78b0b1d251bbae5e5c3/problemlog-android) |
-| [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) | An interactive explainer for real options applied to supply chain network design. | [code](https://github.com/kathuman/claude-projects/tree/main/real-options) |
+| [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) | Prices the flexibility in a supply network design against a fair baseline: commit now, the best fixed design, wait and see, stage and expand, and a lease… | [code](https://github.com/kathuman/claude-projects/tree/main/real-options) |
 
 **Early development:** working prototypes that are still being shaped, less finished and less tested than the projects above.
 
