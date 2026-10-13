@@ -50,10 +50,11 @@ a parametric FreeCAD model and an analytical model share one layout (proved iden
 with simulation, total cost of ownership, an optimiser, and IFC / DXF / glTF export.
 </td>
 <td width="50%" valign="top">
-<a href="https://kathuman.github.io/pharma-sim/"><img src="assets/pharma-sim.jpg" alt="PharmaSim: profit, fill rate, bullwhip and waste, with demand against production"></a>
-<b><a href="https://kathuman.github.io/pharma-sim/">PharmaSim</a></b> — a system-dynamics simulator of a pharmaceutical supply chain:
-the bullwhip effect, multi-echelon amplification, QA quarantine and expiry, and policy levers with their
-trade-offs, measured against a baseline.
+<a href="https://kathuman.github.io/pharma-sim/"><img src="assets/pharma-sim.jpg" alt="PharmaSim: a demand step with overtime against the baseline, with results and demand against production"></a>
+<b><a href="https://kathuman.github.io/pharma-sim/">PharmaSim</a></b> — a system-dynamics simulator of a pharmaceutical supply chain. It shows
+how QA release, shelf life, hiring and a distributor turn a demand surge or a plant outage into shortages,
+amplification and expired stock. Overtime, expedited QA and the planning policy are each measured against a
+fair baseline. Includes a three-level tutorial; in English and Spanish.
 </td>
 </tr>
 <tr>
@@ -95,7 +96,7 @@ the warehouse layout against an independent FreeCAD model; the chess rules by pe
 ## Selected projects
 
 <!-- PROJECTS:START -->
-Further tools and experiments, newest first. The full list of 21 is on the [projects site](https://kathuman.github.io/claude-projects/).
+Further tools and experiments, newest first. The full list of 22 is on the [projects site](https://kathuman.github.io/claude-projects/).
 
 | Project | What it is | |
 |---|---|---|
