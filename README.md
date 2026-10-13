@@ -50,11 +50,11 @@ a parametric FreeCAD model and an analytical model share one layout (proved iden
 with simulation, total cost of ownership, an optimiser, and IFC / DXF / glTF export.
 </td>
 <td width="50%" valign="top">
-<a href="https://kathuman.github.io/pharma-sim/"><img src="assets/pharma-sim.jpg" alt="PharmaSim: a demand step with overtime against the baseline, with results and demand against production"></a>
-<b><a href="https://kathuman.github.io/pharma-sim/">PharmaSim</a></b> — a system-dynamics simulator of a pharmaceutical supply chain. It shows
-how QA release, shelf life, hiring and a distributor turn a demand surge or a plant outage into shortages,
+<a href="https://kathuman.github.io/supply-pulse/"><img src="assets/supply-pulse.jpg" alt="Supply Pulse: a demand step with overtime against the baseline, with results and demand against production"></a>
+<b><a href="https://kathuman.github.io/supply-pulse/">Supply Pulse</a></b> — a system-dynamics simulator of a packaged food and dairy supply chain. It shows
+how QA holds, shelf life, hiring and a distant ingredient supplier turn a demand peak or a plant outage into empty shelves,
 amplification and expired stock. Overtime, expedited QA and the planning policy are each measured against a
-fair baseline. Includes a three-level tutorial; in English and Spanish.
+fair baseline, with a decision lab, a play mode and a three-level tutorial; in English and Spanish.
 </td>
 </tr>
 <tr>
