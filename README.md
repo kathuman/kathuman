@@ -63,8 +63,9 @@ fair baseline, with a decision lab, a play mode and a three-level tutorial; in E
 <b><a href="https://kathuman.github.io/claude-projects/tierwise/">Tierwise</a></b> — multi-tier capacity planning for a food supply chain across latitudes:
 a consumption forecast becomes time-phased capacity requirements for warehouses and four tiers of CMOs (packaging,
 dosing, manufacturing, raw ingredients), with lead, release and transit times, yields and sourcing shares, over
-36 months and 10 further years. Load your own chain from CSV or Excel, trace each shortfall to its markets and size
-the capacity to add; with a three-level tutorial, in English, Spanish and Danish.
+36 months and 10 further years. Load your own chain from CSV or Excel, trace each shortfall to its markets, size
+the capacity to add, and plan within capacity with a linear program solved in the browser (HiGHS): stock built ahead,
+re-sourcing, fill rates and bottlenecks. With a four-level tutorial, in English, Spanish and Danish.
 </td>
 <td width="50%" valign="top">
 <a href="https://kathuman.github.io/claude-projects/tube-flow-sim/"><img src="assets/tube-flow.jpg" alt="Tube Flow: vorticity around a NACA 4412 wing section at 8 degrees"></a>
