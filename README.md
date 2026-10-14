@@ -59,11 +59,20 @@ fair baseline, with a decision lab, a play mode and a three-level tutorial; in E
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://kathuman.github.io/claude-projects/tierwise/"><img src="assets/tierwise.jpg" alt="Tierwise: a six-tier food supply network on a latitude map, a selected site's load against capacity, and a capacity heatmap of every site"></a>
+<b><a href="https://kathuman.github.io/claude-projects/tierwise/">Tierwise</a></b> — multi-tier capacity planning for a food supply chain across latitudes:
+a consumption forecast becomes time-phased capacity requirements for warehouses and four tiers of CMOs (packaging,
+dosing, manufacturing, raw ingredients), with lead, release and transit times, yields and sourcing shares, over
+36 months and 10 further years.
+</td>
+<td width="50%" valign="top">
 <a href="https://kathuman.github.io/claude-projects/tube-flow-sim/"><img src="assets/tube-flow.jpg" alt="Tube Flow: vorticity around a NACA 4412 wing section at 8 degrees"></a>
 <b><a href="https://kathuman.github.io/claude-projects/tube-flow-sim/">Tube Flow</a></b> — 3D lattice-Boltzmann CFD on the GPU: spheres, STL
 shapes and wing sections, validated against exact solutions and published data, with a grid-convergence
 study in its <a href="https://kathuman.github.io/claude-projects/tube-flow-sim/validation.html">validation report</a>.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://kathuman.github.io/claude-projects/cobot-lab/"><img src="assets/cobot-lab.jpg" alt="Cobot Lab: a UR5e arm with its tool frame, joint sliders and motor loads"></a>
 <b><a href="https://kathuman.github.io/claude-projects/cobot-lab/">Cobot Lab</a></b> — Universal Robots arms from their published parameters:
@@ -83,6 +92,7 @@ the warehouse layout against an independent FreeCAD model; the chess rules by pe
 [![Cobot Lab tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/cobot-lab-ci.yml?branch=main&label=Cobot%20Lab%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml)
 [![Warehouse Model tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/warehouse-model-ci.yml?branch=main&label=Warehouse%20Model%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/warehouse-model-ci.yml)
 [![Chess tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/chess-ci.yml?branch=main&label=Chess%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/chess-ci.yml)
+[![Tierwise tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/tierwise-ci.yml?branch=main&label=Tierwise%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/tierwise-ci.yml)
 
 ## Research and consulting
 
@@ -96,7 +106,7 @@ the warehouse layout against an independent FreeCAD model; the chess rules by pe
 ## Selected projects
 
 <!-- PROJECTS:START -->
-Further tools and experiments, newest first. The full list of 22 is on the [projects site](https://kathuman.github.io/claude-projects/).
+Further tools and experiments, newest first. The full list of 23 is on the [projects site](https://kathuman.github.io/claude-projects/).
 
 | Project | What it is | |
 |---|---|---|
