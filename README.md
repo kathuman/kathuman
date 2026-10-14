@@ -54,7 +54,7 @@ with simulation, total cost of ownership, an optimiser, and IFC / DXF / glTF exp
 <b><a href="https://kathuman.github.io/supply-pulse/">Supply Pulse</a></b> — a system-dynamics simulator of a packaged food and dairy supply chain. It shows
 how QA holds, shelf life, hiring and a distant ingredient supplier turn a demand peak or a plant outage into empty shelves,
 amplification and expired stock. Overtime, expedited QA and the planning policy are each measured against a
-fair baseline, with a decision lab, a play mode and a three-level tutorial; in English and Spanish.
+fair baseline, with a decision lab, a play mode and a three-level tutorial; in English, Spanish and Danish.
 </td>
 </tr>
 <tr>
