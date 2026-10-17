@@ -59,11 +59,12 @@ fair baseline, with a decision lab, a play mode and a three-level tutorial; in E
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://kathuman.github.io/claude-projects/tierwise/"><img src="assets/tierwise.jpg" alt="Tierwise: a six-tier food supply network on a latitude map, a selected site's load against capacity, and a capacity heatmap of every site"></a>
+<a href="https://kathuman.github.io/claude-projects/tierwise/"><img src="assets/tierwise.jpg?v=2" alt="Tierwise: the Network Studio, a six-tier food supply network drawn by tier with production sites, warehouses, consumption points and routes, and an inspector"></a>
 <b><a href="https://kathuman.github.io/claude-projects/tierwise/">Tierwise</a></b> — multi-tier capacity planning for a food supply chain across latitudes:
 a consumption forecast becomes time-phased capacity requirements for warehouses and four tiers of CMOs (packaging,
 dosing, manufacturing, raw ingredients), with lead, release and transit times, yields and sourcing shares, over
-36 months and 10 further years. Load your own chain from CSV or Excel, trace each shortfall to its markets, size
+36 months and 10 further years. Draw and edit the network by tier in a Network Studio, with your own parameters;
+load your own chain from CSV or Excel, trace each shortfall to its markets, size
 the capacity to add, and plan within capacity with a linear program solved in the browser (HiGHS): stock built ahead,
 re-sourcing, fill rates and bottlenecks. With a four-level tutorial, in English, Spanish and Danish.
 </td>
