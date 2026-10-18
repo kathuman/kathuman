@@ -1,14 +1,10 @@
 name: Update projects table
 
-# Keeps the "Selected projects" table in README.md in step with the projects site's projects.json.
+# Kept the "Selected projects" table in README.md in step with the projects site's projects.json.
+# Switched off: the profile no longer lists every project (the full list lives on the projects site, linked from the
+# Technical depth page). It now runs only by hand, and only if the PROJECTS markers are put back in README.md.
 on:
-  schedule:
-    - cron: "17 5 * * *"
   workflow_dispatch:
-  push:
-    paths:
-      - "scripts/update-projects.mjs"
-      - ".github/workflows/update-projects.yml"
 
 permissions:
   contents: write

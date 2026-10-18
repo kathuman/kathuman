@@ -1,134 +1,94 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png?v=3">
-  <img src="assets/banner-dark.png?v=3" width="100%" alt="Daniel Sepulveda Estay, PhD — supply chain resilience and network design: system dynamics, optimisation and simulation, built into tools people can use.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png?v=4">
+  <img src="assets/banner-dark.png?v=4" width="100%" alt="Daniel Sepulveda Estay, PhD. Your supply network was designed for a forecast that will not happen. I help you see where it breaks, what flexibility is worth buying, and which decisions to make now versus later.">
 </picture>
 
-PhD, Technical University of Denmark (DTU) · MSc, MIT · Council member, System Dynamics Society · Copenhagen
+**For COOs, supply chain leaders and CFOs in mining, food and beverage, maritime and ports, and healthcare logistics.**
+I build the analysis as interactive decision tools your team can run, not as slide decks.
+**[Book a 30-minute conversation about your network →](https://kathuman.github.io/estay-dynamics/contact.html)**
 
 [![Estay Dynamics](https://img.shields.io/badge/Estay_Dynamics-consulting-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/estay-dynamics/)
-[![Projects](https://img.shields.io/badge/AI_Projects-live_tools-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/claude-projects/)
+[![Decision Labs](https://img.shields.io/badge/Decision_Labs-live_tools-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/claude-projects/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-7dd3fc?style=for-the-badge&labelColor=0a2f52&logo=linkedin&logoColor=bfe4ff)](https://www.linkedin.com/in/danielsepulvedaestay)
 
-I help organisations understand how disruptions travel through their supply networks and design networks
-that absorb them — and I build the models as interactive tools, so decisions can be explored rather than
-read off a slide.
+## The problems I get called in for
 
-## Areas of expertise
+| What you are hearing | What is usually going on | See it |
+|---|---|---|
+| "We fix the same supply problem every year." | Recurring problems come from feedback and delays, not bad luck. | [Supply Pulse](https://kathuman.github.io/supply-pulse/) · [Lag Lab](https://kathuman.github.io/claude-projects/lag-lab/) |
+| "Planning keeps calling it forecast error." | Overshoot after a demand step is the structure of planning, not the forecast. | [Lag Lab](https://kathuman.github.io/claude-projects/lag-lab/) |
+| "We don't know which disruption would really hurt us." | Exposure is time-to-survive versus time-to-recover, not a risk-register score. | [Global Disruption Atlas](https://kathuman.github.io/estay-dynamics/atlas/) · [Network Stress Test](https://kathuman.github.io/claude-projects/network-stress-test/web/) |
+| "We're committing capital on one forecast." | Flexibility has a price you can calculate. Stage, defer or lease before you commit. | [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) |
+| "Commercial, supply and network decisions move at different speeds and collide." | Clockspeed mismatch is a design problem, not a coordination problem. | [Clockspeed Balancing](https://kathuman.github.io/claude-projects/clockspeed/) |
 
-- **[Systems analysis](https://kathuman.github.io/estay-dynamics/expertise/systems-analysis.html)** — system dynamics and systemic risk analysis: why problems recur after every fix, how far disruptions travel through a network, and how much flexibility (buffers, second sources, alternative routes) it pays to hold; causal loop diagrams, stock-and-flow simulation, group model building and executive workshops
-- **[Network design optimisation](https://kathuman.github.io/estay-dynamics/expertise/network-design-optimization.html)** — MILP and stochastic programming for facility, sourcing and capacity decisions, stress-tested by Monte Carlo
-- **[Real options](https://kathuman.github.io/estay-dynamics/expertise/real-options.html)** — the value of deferring, staging or abandoning a network investment under uncertainty
-- **[Simulation and digital twins](https://kathuman.github.io/estay-dynamics/expertise/simulation-digital-twins.html)** — discrete-event, agent-based and Monte Carlo models that test warehouse, production and network changes before capital is committed
-- **[Maritime and cyber-physical risk](https://kathuman.github.io/estay-dynamics/expertise/maritime-cyber-physical-risk.html)** — how fast detection and response must be to keep a cyber incident in ship or port systems from becoming a physical loss
-- **[Engineering simulation](https://kathuman.github.io/estay-dynamics/expertise/engineering-simulation.html)** — validated physics models for concept and feasibility decisions: fluid flow and forces (CFD), robotic cell reach and cycle times, mechanism dynamics, parametric CAD
+## How I approach it
 
-Sector experience: mining, beverage distribution, healthcare and pharmaceutical manufacturing.
+- **Model the system before optimising it.** First find the loops and delays that produce the problem. Then decide what to change.
+- **Test every decision against a fair baseline.** A response only counts if it beats what a competent team would have done anyway.
+- **Value flexibility explicitly.** Buffers, second sources and staged capacity cost money every year. They should carry a value too.
+- **Build a tool your team keeps.** The model stays with your analysts, who can rerun it when the next question arrives.
 
-## Featured work
+## Ways to work together
+
+**1. Disruption Diagnostic.** For COOs and supply chain leaders after a disruption, facing a problem that keeps coming back, or answering the board's "what if X closes?"
+- *Format:* a 2-day executive workshop, with about two weeks of preparation and write-up. Fixed fee.
+- *What happens:* your leadership team maps why the problem recurs: its feedback loops and delays. The main sites and routes are screened on time-to-survive versus time-to-recover. Response options are tested live in the room.
+- *You leave with:* a causal map the team agrees on, a ranked list of exposures, the three leverage points worth acting on, and a short decision memo.
+- *See:* [Supply Pulse](https://kathuman.github.io/supply-pulse/) · [Lag Lab](https://kathuman.github.io/claude-projects/lag-lab/) · [Global Disruption Atlas](https://kathuman.github.io/estay-dynamics/atlas/)
+
+**2. Network Flexibility Study.** For CFOs and COOs about to commit capital: a new site, a capacity expansion, a second source or contract manufacturer, or a network redesign.
+- *Format:* 8–12 weeks. Fixed fee per phase.
+- *What happens:* the network design is optimised and stress-tested across thousands of plausible futures. The flexibility in each option is valued explicitly. Every decision is sorted into commit now, defer, stage, lease or walk away, and compared with a fair baseline.
+- *You leave with:* the option set with a value on each option, a staged plan with clear decision triggers, a board-ready investment memo, and the model itself.
+- *See:* [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) · [Network Stress Test](https://kathuman.github.io/claude-projects/network-stress-test/web/)
+
+**3. Decision Tool Build and Handover.** For heads of supply chain strategy and planning who want the capability in-house, not another report.
+- *Format:* 6–10 weeks to build, then three months of fixed support.
+- *What happens:* an interactive planning or stress-test tool is configured on your own network and data. It is checked against your historical outcomes, and your analysts are trained to run it.
+- *You leave with:* a working, validated tool with its code, a validation report, documentation and a team that can use it. Optional annual model review.
+- *See:* [Tierwise](https://kathuman.github.io/claude-projects/tierwise/) · [Network Stress Test](https://kathuman.github.io/claude-projects/network-stress-test/web/) · [how the tools are validated](https://kathuman.github.io/estay-dynamics/technical-depth.html)
+
+Most engagements start with the Diagnostic. I work with organisations in mining, food and beverage, maritime and ports, and healthcare logistics.
+
+## See it working
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://kathuman.github.io/estay-dynamics/atlas/"><img src="assets/disruption-atlas.jpg" alt="Global Disruption Atlas: a 3D globe of a supply network with live chokepoint conditions"></a>
-<b><a href="https://kathuman.github.io/estay-dynamics/atlas/">Global Disruption Atlas</a></b> — a disruption decision lab on a 3D globe:
-live chokepoint conditions, historical and hypothetical disruptions, and response levers (safety stock,
-second sources, air bridges) priced against time-to-survive and time-to-recover. A companion to
-<i>Engineering Flexibility in Supply Chain Design</i>.
+<a href="https://kathuman.github.io/estay-dynamics/atlas/"><img src="assets/disruption-atlas.jpg" alt="Global Disruption Atlas: a supply network on a 3D globe with live chokepoint conditions"></a>
+<b><a href="https://kathuman.github.io/estay-dynamics/atlas/">Global Disruption Atlas</a></b><br>
+<i>If a strait or a major port closes, which of our sites run out first, and what does each response cost?</i><br>
+It shows which buffers, second sources or air bridges are worth funding, by comparing each site's time-to-survive with its time-to-recover.
 </td>
 <td width="50%" valign="top">
-<a href="https://kathuman.github.io/claude-projects/network-stress-test/web/"><img src="assets/network-stress-test.jpg" alt="Network Stress Test: a global production, warehouse and consumer network on a world map"></a>
-<b><a href="https://kathuman.github.io/claude-projects/network-stress-test/web/">Network Stress Test</a></b> — a supply-network resilience sandbox:
-hundreds of editable nodes, a min-cost-flow solver, N-1 contingency scans, Monte Carlo stress tests and
-adversarial worst-case search.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://kathuman.github.io/claude-projects/warehouse-model/web/"><img src="assets/warehouse-model.jpg" alt="Warehouse Model: a parametric warehouse in 3D with its key results"></a>
-<b><a href="https://kathuman.github.io/claude-projects/warehouse-model/web/">Warehouse Model</a></b> — warehouse design from first principles:
-a parametric FreeCAD model and an analytical model share one layout (proved identical on 400 designs),
-with simulation, total cost of ownership, an optimiser, and IFC / DXF / glTF export.
-</td>
-<td width="50%" valign="top">
-<a href="https://kathuman.github.io/supply-pulse/"><img src="assets/supply-pulse.jpg" alt="Supply Pulse: a demand step with overtime against the baseline, with results and demand against production"></a>
-<b><a href="https://kathuman.github.io/supply-pulse/">Supply Pulse</a></b> — a system-dynamics simulator of a packaged food and dairy supply chain. It shows
-how QA holds, shelf life, hiring and a distant ingredient supplier turn a demand peak or a plant outage into empty shelves,
-amplification and expired stock. Overtime, expedited QA and the planning policy are each measured against a
-fair baseline, with a decision lab, a play mode and a three-level tutorial; in English, Spanish and Danish.
+<a href="https://kathuman.github.io/supply-pulse/"><img src="assets/supply-pulse.jpg" alt="Supply Pulse: a demand step against a baseline, with results and production against demand"></a>
+<b><a href="https://kathuman.github.io/supply-pulse/">Supply Pulse</a></b><br>
+<i>Why does a demand peak or a plant stoppage turn into empty shelves, then written-off stock?</i><br>
+It tells you whether overtime, faster quality release or a different planning policy actually pays, measured against a fair baseline.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://kathuman.github.io/claude-projects/tierwise/"><img src="assets/tierwise.jpg?v=2" alt="Tierwise: the Network Studio, a six-tier food supply network drawn by tier with production sites, warehouses, consumption points and routes, and an inspector"></a>
-<b><a href="https://kathuman.github.io/claude-projects/tierwise/">Tierwise</a></b> — multi-tier capacity planning for a food supply chain across latitudes:
-a consumption forecast becomes time-phased capacity requirements for warehouses and four tiers of CMOs (packaging,
-dosing, manufacturing, raw ingredients), with lead, release and transit times, yields and sourcing shares, over
-36 months and 10 further years. Draw and edit the network by tier in a Network Studio, with your own parameters;
-load your own chain from CSV or Excel, trace each shortfall to its markets, size
-the capacity to add, and plan within capacity with a linear program solved in the browser (HiGHS): stock built ahead,
-re-sourcing, fill rates and bottlenecks. With a four-level tutorial, in English, Spanish and Danish.
+<a href="https://kathuman.github.io/claude-projects/tierwise/"><img src="assets/tierwise.jpg?v=2" alt="Tierwise: a multi-tier food supply network drawn by tier, with an inspector"></a>
+<b><a href="https://kathuman.github.io/claude-projects/tierwise/">Tierwise</a></b><br>
+<i>Which site in our multi-tier chain runs out of capacity first, and when must we add more?</i><br>
+It sizes the capacity to add, site by site and year by year, and shows how much demand is served if you add nothing.
 </td>
 <td width="50%" valign="top">
-<a href="https://kathuman.github.io/claude-projects/tube-flow-sim/"><img src="assets/tube-flow.jpg" alt="Tube Flow: vorticity around a NACA 4412 wing section at 8 degrees"></a>
-<b><a href="https://kathuman.github.io/claude-projects/tube-flow-sim/">Tube Flow</a></b> — 3D lattice-Boltzmann CFD on the GPU: spheres, STL
-shapes and wing sections, validated against exact solutions and published data, with a grid-convergence
-study in its <a href="https://kathuman.github.io/claude-projects/tube-flow-sim/validation.html">validation report</a>.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://kathuman.github.io/claude-projects/cobot-lab/"><img src="assets/cobot-lab.jpg" alt="Cobot Lab: a UR5e arm with its tool frame, joint sliders and motor loads"></a>
-<b><a href="https://kathuman.github.io/claude-projects/cobot-lab/">Cobot Lab</a></b> — Universal Robots arms from their published parameters:
-inverse kinematics, timed motion, path planning around obstacles, physics with pick &amp; place, URScript
-export and a ROS bridge.
+<a href="https://kathuman.github.io/claude-projects/real-options/"><img src="assets/real-options.jpg" alt="Real Options for Network Design: the value of flexibility, five strategies compared and a decision map"></a>
+<b><a href="https://kathuman.github.io/claude-projects/real-options/">Real Options for Network Design</a></b><br>
+<i>Should we build full scale now, build smaller and expand, wait, or lease?</i><br>
+It puts a value on each option against the best fixed design, and gives the demand levels that should trigger the next decision.
 </td>
 </tr>
 </table>
 
-## Verification and validation
-
-Each model is checked against an independent reference before it is used: the CFD solver against Hagen–Poiseuille flow, the Haberman–Sayre
-wall-corrected Stokes drag and Johnson &amp; Patel's sphere wakes; the robot kinematics on 1,600+ checks;
-the warehouse layout against an independent FreeCAD model; the chess rules by perft against published move counts, with every course exercise checked by Stockfish and the endgame tablebase. The suites run in CI:
-
-[![Tube Flow tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/tube-flow-ci.yml?branch=main&label=Tube%20Flow%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/tube-flow-ci.yml)
-[![Cobot Lab tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/cobot-lab-ci.yml?branch=main&label=Cobot%20Lab%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml)
-[![Warehouse Model tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/warehouse-model-ci.yml?branch=main&label=Warehouse%20Model%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/warehouse-model-ci.yml)
-[![Chess tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/chess-ci.yml?branch=main&label=Chess%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/chess-ci.yml)
-[![Tierwise tests](https://img.shields.io/github/actions/workflow/status/kathuman/claude-projects/tierwise-ci.yml?branch=main&label=Tierwise%20tests&style=for-the-badge&labelColor=0a2f52)](https://github.com/kathuman/claude-projects/actions/workflows/tierwise-ci.yml)
-
-## Research and consulting
-
-- **[Estay Dynamics](https://kathuman.github.io/estay-dynamics/)** — my consulting practice: system dynamics and network optimisation for supply chains ([repo](https://github.com/kathuman/estay-dynamics))
-- **[DDRA — dynamic cyber-risk model](https://kathuman.github.io/estay-dynamics/ddra/)** — a five-stock system-dynamics model of the attack–defence loop in a ship's cyber-physical ballast system: detection delay decides containment or failure
-- **[Flexibility in Supply Chain](https://kathuman.github.io/Book-Flexibility-in-SC/)** — companion tools for the book ([repo](https://github.com/kathuman/Book-Flexibility-in-SC))
-- **[Supply Chain Digital Twin](https://github.com/kathuman/supply-chain-digital-twin)** — capacity under a months-on-hand stock policy and end-to-end lead time across a multi-tier network (Streamlit)
-- **[Pharma supply chain ABM](https://github.com/kathuman/pharma-supply-chain-abm)** — an agent-based model of material through a CMO chain (Mesa, Streamlit)
-- **[System dynamics models](https://github.com/kathuman/Vensim-Experiments)** — Vensim models in public health, epidemiology and cyber-resilience
-
-## Selected projects
-
-<!-- PROJECTS:START -->
-Further tools and experiments, newest first. The full list of 23 is on the [projects site](https://kathuman.github.io/claude-projects/).
-
-| Project | What it is | |
-|---|---|---|
-| [Lag Lab](https://kathuman.github.io/claude-projects/lag-lab/) | After a demand step, production overshoots and planning calls it forecast error. | [code](https://github.com/kathuman/claude-projects/tree/main/lag-lab) |
-| [Plumb](https://kathuman.github.io/claude-projects/balancebot-sim/) | A 3D simulator for a two-wheeled balancing robot (v1.3). | [code](https://github.com/kathuman/claude-projects/tree/main/balancebot-sim) |
-| [Network Design Visuals](https://kathuman.github.io/claude-projects/supply-chain-viz/) | A browsable library of 17 supply-chain network-design visualizations, ordered simple → advanced: demand bars, cost-to-serve stacks, O–D flow maps, an… | [code](https://github.com/kathuman/claude-projects/tree/main/supply-chain-viz) |
-| [Scientific Calculator](https://kathuman.github.io/claude-projects/scientific-calculator/) | A keyboard-friendly scientific calculator with a real recursive-descent expression parser (no eval), DEG/RAD/GRAD modes, memory, inverse trig via a 2nd key,… | [code](https://github.com/kathuman/claude-projects/tree/main/scientific-calculator) |
-| Problem Log (Android) | A native Android app that turns a spoken or typed problem description into a structured record — title, summary, category, short-term mitigation, long-term… | [code](https://github.com/kathuman/claude-projects/tree/8b96c8b66ac28f037989d78b0b1d251bbae5e5c3/problemlog-android) |
-| [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) | Prices the flexibility in a supply network design against a fair baseline: commit now, the best fixed design, wait and see, stage and expand, and a lease… | [code](https://github.com/kathuman/claude-projects/tree/main/real-options) |
-
-**Early development:** working prototypes that are still being shaped, less finished and less tested than the projects above.
-
-| Project | What it is | |
-|---|---|---|
-| [Clockspeed Balancing](https://kathuman.github.io/claude-projects/clockspeed/) | A management flight simulator for the conflict between commercial strategy (which moves in months), the product supply chain (about a year) and the network… | [code](https://github.com/kathuman/claude-projects/tree/main/clockspeed) |
-| [Sensor Deck](https://kathuman.github.io/claude-projects/phone-sensors/) | Every sensor a phone's browser can read, live in one page, with nothing to install. | [code](https://github.com/kathuman/claude-projects/tree/main/phone-sensors) |
-| [Face Morph](https://kathuman.github.io/claude-projects/face-morph/) | Live face-landmark detection and triangulated face morphing, entirely on-device. | [code](https://github.com/kathuman/claude-projects/tree/main/face-morph) |
-<!-- PROJECTS:END -->
+The examples run on illustrative data, mostly from food and dairy. The methods transfer to other sectors.
 
 ---
 
-Open to consulting engagements — [get in touch](https://kathuman.github.io/estay-dynamics/contact.html).
+PhD, Technical University of Denmark · MSc, MIT · Council member, System Dynamics Society · Published in the *Journal of Simulation*, the NATO Science Series and *Computers & Security* · Past sector experience in mining, beverage distribution, healthcare and pharmaceutical manufacturing · Copenhagen
+
+**[Book a 30-minute conversation about your network →](https://kathuman.github.io/estay-dynamics/contact.html)**
+
+<sub>[Technical depth](https://kathuman.github.io/estay-dynamics/technical-depth.html): validation and test suites, research, the full tool portfolio and the lab.</sub>
