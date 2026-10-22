@@ -62,6 +62,21 @@ It puts a value on each option against the best fixed design, and gives the dema
 
 The examples run on illustrative data, mostly from food and dairy. The methods transfer to other sectors.
 
+## Also in the lab
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://kathuman.github.io/claude-projects/robot-configurator/"><img src="assets/robot-configurator.jpg" alt="Robot Configurator: three proposals for a rover and a chart of every design by cost against headroom, with the frontier"></a>
+</td>
+<td width="50%" valign="top">
+<b><a href="https://kathuman.github.io/claude-projects/robot-configurator/">Robot Configurator</a></b><br>
+<i>Which rover or robot arm can I actually build from parts sold in Denmark, Sweden or Norway, and what will it cost delivered?</i><br>
+It checks every compatible combination of parts against torque, grip, current, voltage, runtime and pin limits, then prices the best with VAT, duty and shipping. A chart of cost against headroom shows what extra margin costs, and any part can be swapped to see which check it fails. Each design comes with a build guide, the wiring and Arduino programs that compile as delivered. In English, Danish, Swedish, Norwegian and Spanish.
+</td>
+</tr>
+</table>
+
 ---
 
 PhD, Technical University of Denmark · MSc, MIT · Council member, System Dynamics Society · Published in the *Journal of Simulation*, the NATO Science Series and *Computers & Security* · Past sector experience in mining, beverage distribution, healthcare and pharmaceutical manufacturing · Copenhagen
