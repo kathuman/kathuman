@@ -75,6 +75,16 @@ The examples run on illustrative data, mostly from food and dairy. The methods t
 It checks every compatible combination of parts against torque, grip, current, voltage, runtime and pin limits, then prices the best with VAT, duty and shipping. A chart of cost against headroom shows what extra margin costs, and any part can be swapped to see which check it fails. Each design comes with a build guide, the wiring and Arduino programs that compile as delivered. In English, Danish, Swedish, Norwegian and Spanish.
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://kathuman.github.io/claude-projects/ai-expectations-gap-map/"><img src="assets/ai-expectations-gap-map.jpg" alt="AI Expectations Gap Map: AI technologies plotted by demonstrated value against market expectations, with the correction-risk list beside it"></a>
+</td>
+<td width="50%" valign="top">
+<b><a href="https://kathuman.github.io/claude-projects/ai-expectations-gap-map/">AI Expectations Gap Map</a></b><br>
+<i>Where do expectations of AI run ahead of what it has delivered, and how would a different future change that?</i><br>
+It replaces the hype curve with two axes, market expectations and demonstrated value, for 27 AI technologies; the gap between them is the risk. Five drivers, from capital availability to enterprise data readiness, project the board forward, and each bet comes with the signal that would confirm or kill it. Public attention signals are collected every month and flag the scores they contradict for review.
+</td>
+</tr>
 </table>
 
 ---
