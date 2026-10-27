@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -12 664 354" width="664" height="354" role="img" aria-label="Positioning matrix: rigour versus explorability, portfolio in the top-right quadrant"><title>Positioning matrix: rigour versus explorability, portfolio in the top-right quadrant</title><style>text{fill:#e6f3ff;font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;font-size:12px}
+.t-m{fill:#8fb8d6}.t-a{fill:#7dd3fc}.t-on{fill:#04202b}.t-w{fill:#f0a35e}.t-b{fill:#ff8a7a}
+.t-s{font-size:10.5px}.t-l{font-family:"Segoe UI",Helvetica,Arial,sans-serif;font-size:14px;font-weight:600}.t-xl{font-family:"Segoe UI",Helvetica,Arial,sans-serif;font-size:16px;font-weight:700}
+.f-acc{fill:#7dd3fc}.f-ink{fill:#bfe4ff}.f-line{fill:#2a5580}.f-surf{fill:#0d3a63}.f-bad{fill:#ff8a7a}.f-warn{fill:#f0a35e}.f-none{fill:none}.f-muted{fill:#8fb8d6}
+.s-acc{stroke:#7dd3fc}.s-fg{stroke:#e6f3ff}.s-m{stroke:#8fb8d6}.s-bad{stroke:#ff8a7a}.s-line{stroke:#2a5580}.s-warn{stroke:#f0a35e}.s-ink{stroke:#bfe4ff}</style><rect x="-12" y="-12" width="664" height="354" rx="10" fill="#0a2f52" stroke="#2a5580"/>
+    <rect x="330" y="20" width="290" height="135" class="f-acc" fill-opacity=".12"/>
+    <line x1="40" y1="155" x2="620" y2="155" class="s-line"/><line x1="330" y1="20" x2="330" y2="290" class="s-line"/>
+    <line x1="40" y1="290" x2="620" y2="290" class="s-m"/><line x1="40" y1="20" x2="40" y2="290" class="s-m"/>
+    <text x="620" y="310" text-anchor="end" class="t-s t-m">easier to explore →</text>
+    <text x="26" y="155" transform="rotate(-90 26 155)" text-anchor="middle" class="t-s t-m">validated rigour →</text>
+    <text x="54" y="44" class="t-l">Academic models</text><text x="54" y="62" class="t-s t-m">rigorous, locked in code</text><text x="54" y="76" class="t-s t-m">and journals</text>
+    <text x="54" y="180" class="t-l">Spreadsheets</text><text x="54" y="198" class="t-s t-m">fast, fragile, unverified</text>
+    <text x="344" y="180" class="t-l">BI dashboards, decks</text><text x="344" y="198" class="t-s t-m">easy to read, explain nothing</text>
+    <text x="344" y="44" class="t-l t-a">Validated decision labs</text><text x="344" y="62" class="t-s t-m">this portfolio</text>
+    <g class="t-s">
+      <circle cx="520" cy="58" r="6" class="f-acc"/><text x="530" y="62">Tierwise</text>
+      <circle cx="430" cy="92" r="6" class="f-acc"/><text x="440" y="96">Stress Test</text>
+      <circle cx="560" cy="110" r="6" class="f-acc"/><text x="525" y="132">Supply Pulse</text>
+      <circle cx="380" cy="128" r="6" class="f-acc" fill-opacity=".5"/><text x="390" y="140" class="t-m">Atlas</text>
+    </g>
+    <path d="M150,100 C230,80 280,70 335,72" class="f-none s-m" stroke-dasharray="3 4"/>
+    <path d="M440,230 C440,190 420,170 420,150" class="f-none s-m" stroke-dasharray="3 4"/>
+    <text x="150" y="118" class="t-s t-m">add usability</text><text x="448" y="240" class="t-s t-m">add validation</text>
+  </svg>

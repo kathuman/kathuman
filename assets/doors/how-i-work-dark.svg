@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -12 664 274" width="664" height="274" role="img" aria-label="Four-stage pipeline from messy question to explored decision, contrasting a static slide with a re-runnable tool"><title>Four-stage pipeline from messy question to explored decision, contrasting a static slide with a re-runnable tool</title><style>text{fill:#e6f3ff;font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;font-size:12px}
+.t-m{fill:#8fb8d6}.t-a{fill:#7dd3fc}.t-on{fill:#04202b}.t-w{fill:#f0a35e}.t-b{fill:#ff8a7a}
+.t-s{font-size:10.5px}.t-l{font-family:"Segoe UI",Helvetica,Arial,sans-serif;font-size:14px;font-weight:600}.t-xl{font-family:"Segoe UI",Helvetica,Arial,sans-serif;font-size:16px;font-weight:700}
+.f-acc{fill:#7dd3fc}.f-ink{fill:#bfe4ff}.f-line{fill:#2a5580}.f-surf{fill:#0d3a63}.f-bad{fill:#ff8a7a}.f-warn{fill:#f0a35e}.f-none{fill:none}.f-muted{fill:#8fb8d6}
+.s-acc{stroke:#7dd3fc}.s-fg{stroke:#e6f3ff}.s-m{stroke:#8fb8d6}.s-bad{stroke:#ff8a7a}.s-line{stroke:#2a5580}.s-warn{stroke:#f0a35e}.s-ink{stroke:#bfe4ff}</style><rect x="-12" y="-12" width="664" height="274" rx="10" fill="#0a2f52" stroke="#2a5580"/>
+    <g>
+      <polygon class="f-line" points="10,30 140,30 160,65 140,100 10,100"/>
+      <polygon class="f-line" points="165,30 295,30 315,65 295,100 165,100 185,65"/>
+      <polygon class="f-acc" points="320,30 450,30 470,65 450,100 320,100 340,65" opacity=".55"/>
+      <polygon class="f-acc" points="475,30 630,30 630,100 475,100 495,65"/>
+      <text x="80" y="62" text-anchor="middle" class="t-l">Messy question</text>
+      <text x="80" y="80" text-anchor="middle" class="t-s t-m">why does it recur?</text>
+      <text x="245" y="62" text-anchor="middle" class="t-l">Model</text>
+      <text x="245" y="80" text-anchor="middle" class="t-s t-m">causal + optimisation</text>
+      <text x="398" y="62" text-anchor="middle" class="t-l">Validated tool</text>
+      <text x="398" y="80" text-anchor="middle" class="t-s">checked + CI</text>
+      <text x="560" y="62" text-anchor="middle" class="t-l t-on">Explored decision</text>
+      <text x="560" y="80" text-anchor="middle" class="t-s t-on">owned by the client</text>
+    </g>
+    <g class="t-s">
+      <text x="15" y="128" class="t-m">Peak → empty shelves</text><text x="15" y="144" class="t-m">Outage → expired stock</text>
+      <text x="170" y="128" class="t-m">Stock-and-flow, MILP,</text><text x="170" y="144" class="t-m">real options, ABM</text>
+      <text x="325" y="128" class="t-m">vs exact solutions,</text><text x="325" y="144" class="t-m">vs independent models</text>
+      <text x="480" y="128" class="t-m">Levers priced against</text><text x="480" y="144" class="t-m">a fair baseline</text>
+    </g>
+    <line x1="10" y1="168" x2="630" y2="168" class="s-line" stroke-dasharray="3 4"/>
+    <text x="10" y="192" class="t-s t-m">TYPICAL HANDOVER</text>
+    <rect x="150" y="181" width="160" height="16" class="f-line"/>
+    <text x="318" y="193" class="t-s">one slide · one scenario · expires when assumptions change</text>
+    <text x="10" y="226" class="t-s t-m">THIS PORTFOLIO</text>
+    <rect x="150" y="215" width="480" height="16" class="f-acc"/>
+    <text x="158" y="227" class="t-s t-on">a sandbox · any scenario · re-run by the client next quarter</text>
+  </svg>
