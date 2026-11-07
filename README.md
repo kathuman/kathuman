@@ -1,87 +1,71 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png?v=5">
-  <img src="assets/banner-dark.png?v=5" width="100%" alt="Daniel Sepulveda Estay, PhD. Supply networks are designed for forecasts that will not happen. I build open, interactive models of where they break, what flexibility is worth, and which decisions can wait.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png?v=6">
+  <img src="assets/banner-dark.png?v=6" width="100%" alt="Daniel Sepulveda Estay, PhD. Mechanical engineer turned supply chain researcher. I build open, tested models that run in the browser, from turbines and heat pumps to the networks that break under disruption.">
 </picture>
 
-**Research and open decision tools for supply network design, disruption and flexibility.**
-Every model here runs in the browser, is tested in CI, and is free to use and inspect.
+**Engineering and supply chain tools that run in the browser.** Each one is tested in CI, free to use, and open to inspect.
 
-[![Decision Labs](https://img.shields.io/badge/Decision_Labs-live_tools-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/claude-projects/)
+[![AI Projects](https://img.shields.io/badge/AI_Projects-all_tools-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/claude-projects/)
 [![Estay Dynamics](https://img.shields.io/badge/Estay_Dynamics-research_%26_atlas-7dd3fc?style=for-the-badge&labelColor=0a2f52)](https://kathuman.github.io/estay-dynamics/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-7dd3fc?style=for-the-badge&labelColor=0a2f52&logo=linkedin&logoColor=bfe4ff)](https://www.linkedin.com/in/danielsepulvedaestay)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5224--622X-7dd3fc?style=for-the-badge&labelColor=0a2f52&logo=orcid&logoColor=bfe4ff)](https://orcid.org/0000-0001-5224-622X)
 
-## Rigour you can actually use
+## About
 
-Most supply chain analysis is either rigorous and locked in code and journals, or easy to read and impossible to check. These tools aim at the corner in between: models validated against independent references, built so a decision can be explored rather than read off a slide.
+- **Mechanical engineer by training.** Civil Mechanical Engineer, Universidad Técnica Federico Santa María (Chile), and Dipl.-Ing. in Mechanical Engineering, DHBW Mosbach (Germany): thermodynamics, turbomachines, heat transfer, CFD and finite elements.
+- **Supply chain researcher.** MSc in Industrial Engineering, Pontificia Universidad Católica de Chile; SM in Management Science, MIT; PhD in Operations Management, Technical University of Denmark (DTU), including a year as a visiting researcher at the MIT Center for Transportation & Logistics.
+- **Across industries.** Mining, fast-moving consumer goods (FMCG) and beverage distribution, industrial manufacturing, healthcare, and pharmaceutical manufacturing. Council member of the System Dynamics Society. Based in Copenhagen.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/doors/positioning-dark.svg">
-  <img src="assets/doors/positioning-light.svg" width="100%" alt="A two-by-two of validated rigour against ease of exploring: academic models, spreadsheets, dashboards and decks, and validated decision labs, where these tools sit">
-</picture>
+## Two disciplines, one way of working
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/doors/how-i-work-dark.svg">
-  <img src="assets/doors/how-i-work-light.svg" width="100%" alt="From a messy question to a model, a validated tool and an explored decision. A typical handover is one slide and one scenario; here it is a sandbox the client can rerun next quarter">
-</picture>
+<!-- GALLERY:START -->
+<table>
+  <tr><th width="50%">Supply chain</th><th width="50%">Mechanical engineering</th></tr>
+  <tr><td><a href="https://kathuman.github.io/estay-dynamics/atlas/"><img src="assets/disruption-atlas.jpg" width="100%" alt="Global Disruption Atlas"></a><br><a href="https://kathuman.github.io/estay-dynamics/atlas/"><strong>Global Disruption Atlas</strong></a><br>How long a network survives a closure, and what recovering faster costs.</td><td><a href="https://kathuman.github.io/claude-projects/heat-pump-studio/"><img src="assets/heat-pump-studio.jpg" width="100%" alt="Heat Pump Studio"></a><br><a href="https://kathuman.github.io/claude-projects/heat-pump-studio/"><strong>Heat Pump Studio</strong></a><br>Design a heat pump from the building's heat loss to the compressor.</td></tr>
+  <tr><td><a href="https://kathuman.github.io/claude-projects/network-stress-test/web/"><img src="assets/network-stress-test.jpg" width="100%" alt="Network Stress Test"></a><br><a href="https://kathuman.github.io/claude-projects/network-stress-test/web/"><strong>Network Stress Test</strong></a><br>Load your nodes and lanes and find the single point of failure.</td><td><a href="https://kathuman.github.io/claude-projects/turbine-lab/"><img src="assets/turbine-lab.jpg" width="100%" alt="Turbine Lab"></a><br><a href="https://kathuman.github.io/claude-projects/turbine-lab/"><strong>Turbine Lab</strong></a><br>Pelton, Francis and Kaplan turbines in 3D, with the physics behind them.</td></tr>
+  <tr><td><a href="https://kathuman.github.io/claude-projects/real-options/"><img src="assets/real-options.jpg" width="100%" alt="Real Options for Network Design"></a><br><a href="https://kathuman.github.io/claude-projects/real-options/"><strong>Real Options for Network Design</strong></a><br>What staging, waiting or leasing is worth against one big commitment.</td><td><a href="https://kathuman.github.io/claude-projects/cobot-lab/"><img src="assets/cobot-lab.jpg" width="100%" alt="Cobot Lab"></a><br><a href="https://kathuman.github.io/claude-projects/cobot-lab/"><strong>Cobot Lab</strong></a><br>Program and simulate a collaborative robot arm, with inverse kinematics and physics.</td></tr>
+  <tr><td><a href="https://kathuman.github.io/supply-pulse/"><img src="assets/supply-pulse.jpg" width="100%" alt="Supply Pulse"></a><br><a href="https://kathuman.github.io/supply-pulse/"><strong>Supply Pulse</strong></a><br>Test a supply policy against a fair baseline, for food and dairy chains.</td><td><a href="https://kathuman.github.io/claude-projects/tube-flow-sim/"><img src="assets/tube-flow.jpg" width="100%" alt="Tube Flow"></a><br><a href="https://kathuman.github.io/claude-projects/tube-flow-sim/"><strong>Tube Flow</strong></a><br>Lattice-Boltzmann CFD of flow past a sphere in a tube, validated against theory.</td></tr>
+  <tr><td>Also: <a href="https://kathuman.github.io/claude-projects/Beer-Distribution-Game/">Ripple</a>, <a href="https://kathuman.github.io/claude-projects/tierwise/">Tierwise</a>, <a href="https://kathuman.github.io/claude-projects/clockspeed/">Clockspeed Balancing</a>, <a href="https://kathuman.github.io/claude-projects/lag-lab/">Lag Lab</a>.<br><a href="https://kathuman.github.io/claude-projects/?cat=supply-chain"><strong>All supply chain tools →</strong></a> (9)</td><td>Also: <a href="https://kathuman.github.io/claude-projects/robot-configurator/">Robot Configurator</a>, <a href="https://kathuman.github.io/claude-projects/balancebot-sim/">Plumb</a>, <a href="https://kathuman.github.io/claude-projects/rubiks-cube/">Cube Studio</a>.<br><a href="https://kathuman.github.io/claude-projects/?cat=mechanical"><strong>All mechanical engineering tools →</strong></a> (7)</td></tr>
+</table>
 
-## Three ways in
+**Also on the site:** [Epicycles](https://kathuman.github.io/claude-projects/epicycles/), [AI Expectations Gap Map](https://kathuman.github.io/claude-projects/ai-expectations-gap-map/), [Sensor Deck](https://kathuman.github.io/claude-projects/phone-sensors/), [Chess for Kids](https://kathuman.github.io/claude-projects/chess/kids/) and [more](https://kathuman.github.io/claude-projects/?cat=other).
+<!-- GALLERY:END -->
 
-Pick the question closest to yours. Each starts with a tool you can open on a phone in two minutes, then one you can load with your own assumptions.
-
-### 1. How long can your network survive a closure, and what does recovering faster cost?
+## One result worth a look
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/doors/door-survive-dark.svg">
   <img src="assets/doors/door-survive-light.svg" width="100%" alt="Atlas run: daily service level during a 60-day Red Sea closure. With nothing held, service falls to 67% and the event costs $82.0M; with the optimised lever set it stays above 79% and costs $23.3M">
 </picture>
 
-On the Atlas sample network, closing the Red Sea for 60 days costs **$82.0M** with nothing held. The lever set the optimiser recommends costs **$18.9M a year**, cuts this event to **$23.3M**, and cuts expected annual loss from **$50.4M to $15.1M**. It does that with contracts, standby capacity and air, not stock, so the first shortfall comes five days *sooner*.
+On the Atlas sample network, closing the Red Sea for 60 days costs **$82.0M** with nothing held. The lever set the optimiser recommends costs **$18.9M a year**, cuts this event to **$23.3M**, and cuts the expected annual loss from **$50.4M to $15.1M**, with contracts, standby capacity and air rather than stock. [Try it in the Atlas](https://kathuman.github.io/estay-dynamics/atlas/).
 
-**Try it:** [Global Disruption Atlas](https://kathuman.github.io/estay-dynamics/atlas/) · pick a historical closure and compare time-to-survive with time-to-recover.<br>
-**Test your own network:** [Network Stress Test](https://kathuman.github.io/claude-projects/network-stress-test/web/) · load nodes and lanes, run the N-1 scan and find the single point of failure.<br>
-**Leads to:** a resilience diagnostic on your own network, with each lever priced.
-
-### 2. What is it worth to stage, wait or lease instead of committing on one forecast?
-
+<details>
+<summary><b>What is it worth to stage, wait or lease instead of committing on one forecast?</b></summary>
+<br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/doors/door-flexibility-dark.svg">
   <img src="assets/doors/door-flexibility-light.svg" width="100%" alt="Real Options run: NPV over 20,000 demand paths. Committing the full footprint now has a mean of $21.2M and a 23.7% chance of a loss; building smaller and expanding in steps has a mean of $26.5M and a 4.1% chance of a loss">
 </picture>
 
-In the default case, building smaller and expanding in steps is worth **$5.3M more** than committing the full footprint now, and cuts the chance of losing money from **24% to 4%**. Over 20,000 simulated demand paths, the means match the lattice valuation within $0.3M.
+In the default case, building smaller and expanding in steps is worth **$5.3M more** than committing the full footprint now, and cuts the chance of losing money from **24% to 4%**. Over 20,000 simulated demand paths, the means match the lattice valuation within $0.3M. [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/).
+</details>
 
-**Try it:** [Real Options for Network Design](https://kathuman.github.io/claude-projects/real-options/) · five strategies against the best fixed design, with the demand levels that trigger the next step.<br>
-**Test your own case:** [Tierwise](https://kathuman.github.io/claude-projects/tierwise/) · load a multi-tier chain from CSV or Excel and see which site runs out of capacity first, and when.<br>
-**Leads to:** an option valuation of one capacity decision you have on the table.
-
-### 3. Why does a commercial move this quarter cost money a year later?
-
+<details>
+<summary><b>Why does a commercial move this quarter cost money a year later?</b></summary>
+<br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/doors/door-clocks-dark.svg">
   <img src="assets/doors/door-clocks-light.svg" width="100%" alt="Clockspeed run: when competitors promise faster delivery, matching at once loses 62k against standing still; preparing the supply chain a year earlier and then matching gains 161k, of which 159k comes from moving the two clocks together">
 </picture>
 
-When competitors promise faster delivery, matching them at once **loses money** against standing still. Preparing the supply chain a year earlier and then matching **gains 161k**: preparing alone is worth 65k, and 159k comes from moving the two clocks in step.
-
-**Try it:** [Lag Lab](https://kathuman.github.io/claude-projects/lag-lab/) · after a demand step, how much of the overshoot is really forecast error?<br>
-**Test your own policy:** [Supply Pulse](https://kathuman.github.io/supply-pulse/) · overtime, faster quality release or a new planning policy, each against a fair baseline.<br>
-**Then fly it:** [Clockspeed Balancing](https://kathuman.github.io/claude-projects/clockspeed/) · 20 years of commercial, supply chain and network decisions, and a debrief of which clock made or cost the money.<br>
-**Leads to:** a workshop where your team flies its own strategy and sees its own debrief.
-
-<sub>Every figure above is a run of the tool's own engine on its built-in example: the Atlas sample company is fictional (real ports and lanes), the Real Options case is its default, and Clockspeed is in model units. The methods transfer; the numbers are yours to replace.</sub>
+When competitors promise faster delivery, matching them at once **loses money** against standing still. Preparing the supply chain a year earlier and then matching **gains 161k**: preparing alone is worth 65k, and 159k comes from moving the two clocks in step. [Clockspeed Balancing](https://kathuman.github.io/claude-projects/clockspeed/).
+</details>
 
 ## Checked before it is used
 
-[![Atlas tests](https://github.com/kathuman/estay-dynamics/actions/workflows/atlas-ci.yml/badge.svg)](https://github.com/kathuman/estay-dynamics/actions/workflows/atlas-ci.yml) [![Network Stress Test tests](https://github.com/kathuman/claude-projects/actions/workflows/network-stress-test-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/network-stress-test-ci.yml) [![Real Options tests](https://github.com/kathuman/claude-projects/actions/workflows/real-options-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/real-options-ci.yml) [![Tierwise tests](https://github.com/kathuman/claude-projects/actions/workflows/tierwise-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/tierwise-ci.yml) [![Supply Pulse tests](https://github.com/kathuman/supply-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/kathuman/supply-pulse/actions/workflows/ci.yml) [![Lag Lab tests](https://github.com/kathuman/claude-projects/actions/workflows/lag-lab-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/lag-lab-ci.yml) [![Clockspeed tests](https://github.com/kathuman/claude-projects/actions/workflows/clockspeed-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/clockspeed-ci.yml)
+[![Atlas tests](https://github.com/kathuman/estay-dynamics/actions/workflows/atlas-ci.yml/badge.svg)](https://github.com/kathuman/estay-dynamics/actions/workflows/atlas-ci.yml) [![Network Stress Test tests](https://github.com/kathuman/claude-projects/actions/workflows/network-stress-test-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/network-stress-test-ci.yml) [![Real Options tests](https://github.com/kathuman/claude-projects/actions/workflows/real-options-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/real-options-ci.yml) [![Supply Pulse tests](https://github.com/kathuman/supply-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/kathuman/supply-pulse/actions/workflows/ci.yml) [![Heat Pump Studio tests](https://github.com/kathuman/claude-projects/actions/workflows/heat-pump-studio-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/heat-pump-studio-ci.yml) [![Turbine Lab tests](https://github.com/kathuman/claude-projects/actions/workflows/turbine-lab-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/turbine-lab-ci.yml) [![Cobot Lab tests](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/cobot-lab-ci.yml) [![Tube Flow tests](https://github.com/kathuman/claude-projects/actions/workflows/tube-flow-ci.yml/badge.svg)](https://github.com/kathuman/claude-projects/actions/workflows/tube-flow-ci.yml)
 
-Each model is tested against something independent of itself: the flow solver against optimality certificates and a second max-flow algorithm, the option lattice against Black–Scholes, delays against their exact solutions, the Atlas against the PortWatch record. The suites run on every change.
+Each model is tested against something independent of itself: the flow solver against optimality certificates and a second max-flow algorithm, the option lattice against Black–Scholes, the refrigerant cycle against CoolProp, the CFD against Stokes' law, and the Atlas against the PortWatch record. The suites run on every change.
 
-**Also in the lab:** [Robot Configurator](https://kathuman.github.io/claude-projects/robot-configurator/), [AI Expectations Gap Map](https://kathuman.github.io/claude-projects/ai-expectations-gap-map/), [Warehouse Model](https://kathuman.github.io/claude-projects/warehouse-model/web/), [Tube Flow](https://kathuman.github.io/claude-projects/tube-flow-sim/), [Cobot Lab](https://kathuman.github.io/claude-projects/cobot-lab/) and more on the [projects site](https://kathuman.github.io/claude-projects/).
-
----
-
-PhD, Technical University of Denmark · MSc, MIT · Council member, System Dynamics Society · Published in the *Journal of Simulation*, the NATO Science Series and *Computers & Security* · Past sector experience in mining, beverage distribution, healthcare and pharmaceutical manufacturing · Copenhagen
-
-Questions, bugs or ideas about a tool are welcome as [issues](https://github.com/kathuman/claude-projects/issues).
-
-<sub>[Technical depth](https://kathuman.github.io/estay-dynamics/technical-depth.html): validation and test suites, research, the full tool portfolio and the lab.</sub>
+<sub>The figures above are runs of each tool's own engine on its built-in example: the Atlas sample company is fictional (real ports and lanes), the Real Options case is its default, and Clockspeed is in model units. The gallery is rebuilt daily from the projects list.</sub>

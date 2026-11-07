@@ -1,49 +1,58 @@
 <!doctype html>
 <!--
-  banner.html — the profile banner in the Cobot Lab "blueprint" theme. Rendered to assets/banner-dark.png and
-  assets/banner-light.png by scripts/render-banner.mjs (headless Chromium, real fonts, 2x). Open ?light for
-  the light version.
+  banner.html — the profile banner in the Cobot Lab "blueprint" theme: name, one line, and one example from each
+  discipline (assets/banner/*.webp). Rendered to assets/banner-dark.png and assets/banner-light.png by
+  scripts/render-banner.mjs (local Chrome, real fonts, 2x). Open ?light for the light version.
 -->
 <html>
 <head>
 <meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
-  :root { --bg1: #0d3a63; --bg2: #0a2f52; --grid: rgba(125,211,252,.08); --grid2: rgba(125,211,252,.16); --ink: #bfe4ff; --ink2: #8fd0f2; --faint: #6fa8c9; --accent: #7dd3fc; --line: #2a5580; --node: #0d3a63; }
-  :root.light { --bg1: #ffffff; --bg2: #e9f1f8; --grid: rgba(11,106,162,.08); --grid2: rgba(11,106,162,.16); --ink: #0a2f52; --ink2: #2d5677; --faint: #587a96; --accent: #0b6aa2; --line: #c3d7e8; --node: #ffffff; }
-  html, body { margin: 0; }
-  .banner { position: relative; width: 1280px; height: 300px; overflow: hidden; box-sizing: border-box; border: 1px solid var(--line); border-radius: 14px;
+  :root { --bg1:#0d3a63; --bg2:#0a2f52; --grid:rgba(125,211,252,.08); --grid2:rgba(125,211,252,.16); --ink:#e6f4ff; --ink2:#8fd0f2; --faint:#6fa8c9; --accent:#7dd3fc; --line:#2a5580; --card:#0d3a63; --shadow:rgba(0,0,0,.45); }
+  :root.light { --bg1:#ffffff; --bg2:#e9f1f8; --grid:rgba(11,106,162,.08); --grid2:rgba(11,106,162,.16); --ink:#0a2f52; --ink2:#2d5677; --faint:#587a96; --accent:#0b6aa2; --line:#c3d7e8; --card:#ffffff; --shadow:rgba(10,47,82,.18); }
+  html, body { margin:0; background:transparent; }
+  .banner { position:relative; width:1280px; height:340px; overflow:hidden; box-sizing:border-box; border:1px solid var(--line); border-radius:14px;
+    display:flex; align-items:center; gap:36px; padding:0 48px 0 56px;
     background:
       linear-gradient(var(--grid2) 1px, transparent 1px) 0 0 / 160px 160px,
       linear-gradient(90deg, var(--grid2) 1px, transparent 1px) 0 0 / 160px 160px,
       linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 32px 32px,
       linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 32px 32px,
       linear-gradient(180deg, var(--bg1), var(--bg2)); }
-  /* corner brackets, as on Cobot Lab's panels */
-  .tick { position: absolute; width: 22px; height: 22px; border-color: var(--accent); border-style: solid; border-width: 0; }
-  .tick.tl { left: 18px; top: 18px; border-left-width: 2px; border-top-width: 2px; }
-  .tick.tr { right: 18px; top: 18px; border-right-width: 2px; border-top-width: 2px; }
-  .tick.bl { left: 18px; bottom: 18px; border-left-width: 2px; border-bottom-width: 2px; }
-  .tick.br { right: 18px; bottom: 18px; border-right-width: 2px; border-bottom-width: 2px; }
-  .text { position: absolute; left: 64px; top: 46px; width: 780px; }
-  .kicker { font-family: "IBM Plex Mono", monospace; font-size: 15px; letter-spacing: .14em; color: var(--faint); text-transform: uppercase; }
-  h1 { margin: 10px 0 0; font-family: "Rajdhani", sans-serif; font-weight: 700; font-size: 56px; line-height: 1; white-space: nowrap; letter-spacing: .03em; color: var(--ink); text-transform: uppercase; }
-  h1 span { color: var(--accent); }
-  h1 em { font-style: normal; text-transform: none; color: var(--ink); }
-  .tag { margin-top: 12px; font-family: "Barlow", sans-serif; font-size: 21px; font-weight: 500; line-height: 1.35; color: var(--ink2); }
-  .chips { margin-top: 20px; display: flex; gap: 8px; flex-wrap: nowrap; }
-  .chips b { font-family: "Rajdhani", sans-serif; font-weight: 600; font-size: 13.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--ink); border: 1px solid var(--line); border-radius: 7px; padding: 4px 9px; background: color-mix(in srgb, var(--bg2) 70%, transparent); }
+  .tick { position:absolute; width:22px; height:22px; border-color:var(--accent); border-style:solid; border-width:0; }
+  .tick.tl { left:18px; top:18px; border-left-width:2px; border-top-width:2px; }
+  .tick.tr { right:18px; top:18px; border-right-width:2px; border-top-width:2px; }
+  .tick.bl { left:18px; bottom:18px; border-left-width:2px; border-bottom-width:2px; }
+  .tick.br { right:18px; bottom:18px; border-right-width:2px; border-bottom-width:2px; }
+  .text { flex:1; min-width:0; }
+  .kicker { font:500 14px "IBM Plex Mono", monospace; letter-spacing:.14em; color:var(--faint); text-transform:uppercase; }
+  h1 { margin:10px 0 14px; font:700 48px/1 "Rajdhani", sans-serif; letter-spacing:.02em; color:var(--ink); white-space:nowrap; }
+  p { margin:0; font:400 22px/1.38 "Barlow", sans-serif; color:var(--ink2); max-width:600px; }
+  .chips { display:flex; gap:8px; margin-top:18px; }
+  .chips span { font:500 13px "IBM Plex Mono", monospace; border:1px solid var(--line); border-radius:999px; padding:4px 11px; color:var(--ink2); background:var(--card); }
+  .shots { display:flex; gap:12px; width:480px; flex:none; }
+  .c { flex:1; background:var(--card); border:1px solid var(--line); border-radius:11px; padding:7px; box-shadow:0 10px 28px -12px var(--shadow); }
+  .c img { display:block; width:100%; aspect-ratio:8/5; object-fit:cover; border-radius:6px; }
+  .c b { display:block; font:700 14px "Rajdhani", sans-serif; letter-spacing:.06em; text-transform:uppercase; margin:7px 2px 0; color:var(--ink); }
+  .c i { display:block; font:500 11.5px "IBM Plex Mono", monospace; font-style:normal; color:var(--accent); margin:0 2px 2px; }
 </style>
 </head>
 <body>
 <div class="banner">
-  <div class="tick tl"></div><div class="tick tr"></div><div class="tick bl"></div><div class="tick br"></div>
+  <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
   <div class="text">
-    <div class="kicker">Copenhagen</div>
-    <h1>Daniel <span>Sepulveda Estay</span><em>, PhD</em></h1>
-    <div class="tag">Supply networks are designed for forecasts that will not happen. I build open, interactive models of where they break, what flexibility is worth, and which decisions can wait.</div>
+    <div class="kicker">Copenhagen · open engineering &amp; decision tools</div>
+    <h1>Daniel Sepulveda Estay, PhD</h1>
+    <p>Mechanical engineer turned supply chain researcher. I build open, tested models that run in the browser, from turbines and heat pumps to the networks that break under disruption.</p>
+    <div class="chips"><span>supply chain</span><span>mechanical engineering</span><span>system dynamics</span><span>tested in CI</span></div>
+  </div>
+  <div class="shots">
+    <div class="c"><img src="../assets/banner/atlas.webp" alt=""><b>Disruption Atlas</b><i>supply chain</i></div>
+    <div class="c"><img src="../assets/banner/turbine.webp" alt=""><b>Turbine Lab</b><i>mechanical</i></div>
+    <div class="c"><img src="../assets/banner/heatpump.webp" alt=""><b>Heat Pump Studio</b><i>mechanical</i></div>
   </div>
 </div>
-<script>if (location.search.indexOf("light") >= 0) document.documentElement.className = "light";</script>
+<script>if (location.search.includes("light")) document.documentElement.classList.add("light");</script>
 </body>
 </html>

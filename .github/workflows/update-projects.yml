@@ -1,9 +1,10 @@
-name: Update projects table
+name: Update gallery
 
-# Kept the "Selected projects" table in README.md in step with the projects site's projects.json.
-# Switched off: the profile no longer lists every project (the full list lives on the projects site, linked from the
-# Technical depth page). It now runs only by hand, and only if the PROJECTS markers are put back in README.md.
+# Keeps the two-discipline gallery in README.md (between the GALLERY markers) in step with the projects site's
+# projects.json: featured tools per discipline, the newest others, and the counts. Daily and on demand.
 on:
+  schedule:
+    - cron: "17 5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,11 +19,11 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/update-projects.mjs
-      - name: Commit if the table changed
+      - name: Commit if the gallery changed
         run: |
           if ! git diff --quiet README.md; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -am "Update projects table from projects.json"
+            git commit -am "Update gallery from projects.json"
             git push
           fi
