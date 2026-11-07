@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png?v=6">
-  <img src="assets/banner-dark.png?v=6" width="100%" alt="Daniel Sepulveda Estay, PhD. Mechanical engineer turned supply chain researcher. I build open, tested models that run in the browser, from turbines and heat pumps to the networks that overcome disruption.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png?v=7">
+  <img src="assets/banner-dark.png?v=7" width="100%" alt="Daniel Sepulveda Estay, PhD. Mechanical engineer turned supply chain researcher. I build open, tested models that run in the browser, from turbines and heat pumps to networks that perform even when disrupted.">
 </picture>
 
 **Engineering and supply chain tools that run in the browser.** Each one is tested in CI, free to use, and open to inspect.
