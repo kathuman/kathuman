@@ -28,7 +28,7 @@
   <tr><td colspan="2"><strong>Supply chain</strong>. In the lab: <a href="https://kathuman.github.io/supply-pulse/">Supply Pulse</a>, <a href="https://kathuman.github.io/claude-projects/clockspeed/">Clockspeed Balancing</a>, <a href="https://kathuman.github.io/claude-projects/lag-lab/">Lag Lab</a>, <a href="https://kathuman.github.io/claude-projects/network-stress-test/web/">Network Stress Test</a>.<br><a href="https://kathuman.github.io/claude-projects/?cat=supply-chain"><strong>All supply chain tools →</strong></a> (10)</td></tr>
 </table>
 
-**Also on the site:** [Epicycles](https://kathuman.github.io/claude-projects/epicycles/), [AI Expectations Gap Map](https://kathuman.github.io/claude-projects/ai-expectations-gap-map/), [Sensor Deck](https://kathuman.github.io/claude-projects/phone-sensors/), [Chess for Kids](https://kathuman.github.io/claude-projects/chess/kids/) and [more](https://kathuman.github.io/claude-projects/?cat=other).
+**Also on the site:** [Tech University Atlas](https://kathuman.github.io/claude-projects/tech-uni-atlas/), [Epicycles](https://kathuman.github.io/claude-projects/epicycles/), [AI Expectations Gap Map](https://kathuman.github.io/claude-projects/ai-expectations-gap-map/), [Sensor Deck](https://kathuman.github.io/claude-projects/phone-sensors/) and [more](https://kathuman.github.io/claude-projects/?cat=other).
 <!-- GALLERY:END -->
 
 ## One result worth a look
