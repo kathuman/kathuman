@@ -29,7 +29,7 @@
   <tr><td colspan="2"><strong>Supply chain</strong>. In the lab: <a href="https://kathuman.github.io/claude-projects/warehouse-compare/">Warehouse Compare</a>, <a href="https://kathuman.github.io/supply-pulse/">Supply Pulse</a>, <a href="https://kathuman.github.io/claude-projects/clockspeed/">Clockspeed Balancing</a>, <a href="https://kathuman.github.io/claude-projects/lag-lab/">Lag Lab</a>.<br><a href="https://kathuman.github.io/claude-projects/?cat=supply-chain"><strong>All supply chain tools →</strong></a> (12)</td></tr>
 </table>
 
-**Also on the site:** [String Art](https://kathuman.github.io/claude-projects/string-art/), [Tech University Atlas](https://kathuman.github.io/claude-projects/tech-uni-atlas/), [Epicycles](https://kathuman.github.io/claude-projects/epicycles/), [AI Expectations Gap Map](https://kathuman.github.io/claude-projects/ai-expectations-gap-map/) and [more](https://kathuman.github.io/claude-projects/?cat=other).
+**Also on the site:** [HP 48 Emulator](https://kathuman.github.io/claude-projects/hp48/), [String Art](https://kathuman.github.io/claude-projects/string-art/), [Tech University Atlas](https://kathuman.github.io/claude-projects/tech-uni-atlas/), [Epicycles](https://kathuman.github.io/claude-projects/epicycles/) and [more](https://kathuman.github.io/claude-projects/?cat=other).
 <!-- GALLERY:END -->
 
 ## One result worth a look
